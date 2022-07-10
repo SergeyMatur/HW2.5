@@ -1,11 +1,16 @@
 package com.example.hw2_5.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.Objects;
 
 public class Employee {
 
-    String name;
-    String surname;
+    @JsonProperty("firstName")
+
+    final String name;
+    @JsonProperty("lastName")
+    private final String surname;
 
 
     public Employee(String name, String surname) {
