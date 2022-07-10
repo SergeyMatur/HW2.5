@@ -1,0 +1,2 @@
+GET http://localhost:8090/employee/add?firstName=Sergey&lastName=Stepanov
+###
